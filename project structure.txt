@@ -1,0 +1,20 @@
+smart-contract-rag-assistant/
+│
+├── app.py                  # Main script → launches Gradio UI and contains core logic
+├── chains.py               # LCEL chains for QA, summarization, ingestion
+├── prompts.py              # All prompt templates
+├── vectorstore.py          # Chroma vector store setup & persistence
+├── utils.py                # Helpers: loaders, chunking, citation formatting
+│
+├── data/
+│   └── chroma_db/          # Chroma persistent directory (auto-created)
+│
+├── samples/                # 3–5 sample contract PDFs here (NDAs, etc.)
+│
+├── tests/
+│   ├── eval_qa.py          # Basic evaluation script
+│   └── qa_pairs.json       # Example test questions
+│
+├── .env                    # Contains your OPENAI_API_KEY
+├── requirements.txt
+└── README.md

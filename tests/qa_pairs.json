@@ -1,0 +1,68 @@
+[
+  {
+    "question": "Who are the parties to this agreement?",
+    "expected_answer_snippet": "Disclosing Party and Receiving Party",
+    "reference_clauses": "Introduction / Recitals / Parties section (usually page 1)",
+    "category": "General Information"
+  },
+  {
+    "question": "What is defined as Confidential Information in this agreement?",
+    "expected_answer_snippet": "any non-public information disclosed",
+    "reference_clauses": "Definition of Confidential Information clause (usually section 1 or 2)",
+    "category": "Definition"
+  },
+  {
+    "question": "What are the permitted purposes for using the Confidential Information?",
+    "expected_answer_snippet": "evaluate a potential business relationship",
+    "reference_clauses": "Purpose / Use clause (often section 2 or 3)",
+    "category": "Obligations"
+  },
+  {
+    "question": "How long does the confidentiality obligation last?",
+    "expected_answer_snippet": "for a period of [X] years after termination",
+    "reference_clauses": "Term of Confidentiality / Duration clause (usually section 4 or 5)",
+    "category": "Duration"
+  },
+  {
+    "question": "What are the exceptions to what is considered Confidential Information?",
+    "expected_answer_snippet": "publicly known, independently developed, required by law",
+    "reference_clauses": "Exclusions / Exceptions to Confidential Information (often section 2(b) or similar)",
+    "category": "Exceptions"
+  },
+  {
+    "question": "Is the Receiving Party allowed to disclose Confidential Information to third parties?",
+    "expected_answer_snippet": "only to employees or advisors who need to know and are bound by confidentiality",
+    "reference_clauses": "Disclosure to Representatives / Permitted Disclosures section",
+    "category": "Obligations"
+  },
+  {
+    "question": "What happens if the Receiving Party breaches the agreement?",
+    "expected_answer_snippet": "injunctive relief and/or damages",
+    "reference_clauses": "Remedies / Breach / Injunctive Relief clause (often near the end)",
+    "category": "Remedies"
+  },
+  {
+    "question": "Does this agreement contain a non-compete provision?",
+    "expected_answer_snippet": "No",
+    "reference_clauses": "Scan entire document; typical NDAs do not include non-compete",
+    "category": "Restrictive Covenants"
+  },
+  {
+    "question": "What law governs this agreement?",
+    "expected_answer_snippet": "laws of the State of [State]",
+    "reference_clauses": "Governing Law clause (usually second-to-last section)",
+    "category": "General Information"
+  },
+  {
+    "question": "When does this agreement terminate?",
+    "expected_answer_snippet": "upon written notice or after a specified period",
+    "reference_clauses": "Term / Termination section",
+    "category": "Term"
+  },
+  {
+    "question": "Is there a requirement to return or destroy Confidential Information?",
+    "expected_answer_snippet": "Yes, upon request or termination",
+    "reference_clauses": "Return or Destruction of Materials clause (often section 6 or 7)",
+    "category": "Post-Termination"
+  }
+]
