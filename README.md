@@ -18,5 +18,5 @@ Treat all answers as potentially incomplete or incorrect.
 ### 2. Clone or download the project
 
 ```bash
-git clone <[your-repository-url](https://github.com/z3yad30/Contract-Summary-Q-A-Assistant)> smart-contract-rag-assistant
+git clone <[https://github.com/z3yad30/Contract-Summary-Q-A-Assistant]> smart-contract-rag-assistant
 cd smart-contract-rag-assistant
