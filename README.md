@@ -42,7 +42,6 @@ All outputs should be treated as informational only.
 ## Project Structure
 
 ```
-```
 smart-contract-rag-assistant/
 ├── app.py                  # Main script – launches Gradio UI
 ├── chains.py               # QA chain, summarization chain
@@ -59,14 +58,14 @@ smart-contract-rag-assistant/
 ├── requirements.txt
 └── README.md
 ```
-```
+
 
 ## Prerequisites
-
+```
 - Python 3.10 – 3.12 (3.11 recommended)  
 - Git (optional)  
 - Internet connection (for pip install + OpenRouter API calls)
-
+```
 ## Quick Start – How to Run
 
 ### 1. Clone or download the project
@@ -196,4 +195,5 @@ This README is:
 - Explains both quick usage and development context  
 
 - Matches the project specification goals and deliverables
+
 
