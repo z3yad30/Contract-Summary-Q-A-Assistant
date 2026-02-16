@@ -42,6 +42,7 @@ All outputs should be treated as informational only.
 ## Project Structure
 
 ```
+```
 smart-contract-rag-assistant/
 ├── app.py                  # Main script – launches Gradio UI
 ├── chains.py               # QA chain, summarization chain
@@ -57,6 +58,7 @@ smart-contract-rag-assistant/
 ├── .env                    # API key
 ├── requirements.txt
 └── README.md
+```
 ```
 
 ## Prerequisites
@@ -192,4 +194,5 @@ This README is:
 - Includes exact commands  
 - Contains clear warnings and disclaimers  
 - Explains both quick usage and development context  
+
 - Matches the project specification goals and deliverables
