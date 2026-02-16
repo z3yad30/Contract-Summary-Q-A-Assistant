@@ -1,4 +1,4 @@
-```markdown
+
 # Smart Contract Summary & Q&A Assistant
 
 A small-scale **Retrieval-Augmented Generation (RAG)** web application that allows users to upload PDF or DOCX legal documents (contracts, NDAs, insurance policies, etc.) and ask natural-language questions about their content. The system extracts text, chunks it intelligently, embeds it using sentence transformers, stores embeddings in a local Chroma vector database, and answers questions using OpenRouter's Aurora model with source citations and basic guardrails.
@@ -196,3 +196,4 @@ This README is:
 - Explains both quick usage and development context  
 
 - Matches the project specification goals and deliverables
+
